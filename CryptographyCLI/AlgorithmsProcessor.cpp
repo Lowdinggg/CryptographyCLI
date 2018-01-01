@@ -30,7 +30,7 @@ void processXor(string const& key, string const& text) {
 	Xor_Text_Pattern xor (text);
 	cout << "Original text: " << xor.getOriginal() << endl;
 	cout << "Key: " << key << endl;
-	cout << "Encrypted: " << xor.encode(key) << endl;
+	cout << "Result: " << xor.encode(key) << endl;
 	cout << endl;
 }
 void processBase64(std::string const& mode, std::string const& text) {
