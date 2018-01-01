@@ -8,9 +8,6 @@
 using namespace std;
 
 
-
-
-
 int key[64] =
 {
 	0,0,0,1,0,0,1,1,
@@ -24,7 +21,7 @@ int key[64] =
 };
 
 
-void DES_Pattern::IP() //Initial Permutation
+void DES_Pattern::IP()
 {
 	int k = 58, i;
 	for(i = 0; i<32; i++) {
