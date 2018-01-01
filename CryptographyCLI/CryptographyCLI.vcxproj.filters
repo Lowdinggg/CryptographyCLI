@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Algorithms">
+      <UniqueIdentifier>{25913269-5c79-4ce8-8967-79c10cd08e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Algorithms">
+      <UniqueIdentifier>{93ee46e6-ad01-4bd6-81ab-b0a533965304}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Xor_Text_Pattern.cpp">
+      <Filter>Fichiers sources\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64_Pattern.cpp">
+      <Filter>Fichiers sources\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="DES_Pattern.cpp">
+      <Filter>Fichiers sources\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="TDES_Pattern.cpp">
+      <Filter>Fichiers sources\Algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base64_Pattern.h">
+      <Filter>Fichiers d%27en-tête\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="DES_Pattern.h">
+      <Filter>Fichiers d%27en-tête\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="TDES_Pattern.h">
+      <Filter>Fichiers d%27en-tête\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor_Pattern.h">
+      <Filter>Fichiers d%27en-tête\Algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
