@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AlgorithmsProcessor.cpp" />
     <ClCompile Include="Base64_Pattern.cpp" />
     <ClCompile Include="DES_Pattern.cpp" />
     <ClCompile Include="main.cpp" />
@@ -26,6 +27,7 @@
     <ClCompile Include="Xor_Text_Pattern.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AlgorithmsProcessor.hpp" />
     <ClInclude Include="Base64_Pattern.h" />
     <ClInclude Include="DES_Pattern.h" />
     <ClInclude Include="TDES_Pattern.h" />
