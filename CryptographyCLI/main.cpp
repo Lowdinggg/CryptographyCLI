@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <Windows.h>
 #include <string>
-#include "Xor_Pattern.h"
 #include "AlgorithmsProcessor.hpp"
 
 using namespace std;
