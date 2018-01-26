@@ -24,7 +24,7 @@
     <ClCompile Include="DES_Pattern.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TDES_Pattern.cpp" />
-    <ClCompile Include="Xor_Text_Pattern.cpp" />
+    <ClCompile Include="Xor_Pattern.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmsProcessor.hpp" />

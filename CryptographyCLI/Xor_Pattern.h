@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream>
 class Xor_Text_Pattern {
 public:
 	Xor_Text_Pattern(std::string const& str);

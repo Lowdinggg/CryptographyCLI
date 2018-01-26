@@ -1,10 +1,12 @@
-#include <iostream>
+﻿#include <iostream>
 #include <stdio.h>
 #include <Windows.h>
 #include <string>
+#include "Xor_Pattern.h"
 #include "AlgorithmsProcessor.hpp"
 
 using namespace std;
+
 
 int main(int argc, char** argv) {
 

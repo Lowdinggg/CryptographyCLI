@@ -26,7 +26,8 @@ void processDES(std::string const& mode, std::string const& str) {
 }
 void processXor(string const& key, string const& text) {
 	cout << "XOR Encryption" << endl << endl;
-
+	if(text.size() > 22)
+		cout << endl  << "Text size greater than 22." << endl << "The text won't be processed correctly or not processed at all" << endl;
 	Xor_Text_Pattern xor (text);
 	cout << "Original text: " << xor.getOriginal() << endl;
 	cout << "Key: " << key << endl;

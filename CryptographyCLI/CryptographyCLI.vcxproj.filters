@@ -24,9 +24,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Xor_Text_Pattern.cpp">
-      <Filter>Fichiers sources\Algorithms</Filter>
-    </ClCompile>
     <ClCompile Include="Base64_Pattern.cpp">
       <Filter>Fichiers sources\Algorithms</Filter>
     </ClCompile>
@@ -38,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="AlgorithmsProcessor.cpp">
       <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Xor_Pattern.cpp">
+      <Filter>Fichiers sources\Algorithms</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
